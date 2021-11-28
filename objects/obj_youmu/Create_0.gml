@@ -7,3 +7,4 @@ prevjump = false;
 jumptime = 0;
 prevcrouch = false;
 facedir = RIGHT;
+canshoot = 0;

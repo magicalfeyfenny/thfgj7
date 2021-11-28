@@ -128,8 +128,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "thj7",
-    "path": "thj7.yyp",
+    "name": "text",
+    "path": "folders/text.yy",
   },
   "resourceVersion": "1.0",
   "name": "fn_textsmall",

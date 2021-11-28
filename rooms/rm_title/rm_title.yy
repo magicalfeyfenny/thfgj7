@@ -57,8 +57,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "thj7",
-    "path": "thj7.yyp",
+    "name": "title",
+    "path": "folders/title.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_title",

@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "thj7",
-    "path": "thj7.yyp",
+    "name": "cutscene",
+    "path": "folders/cutscene.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_explainer",

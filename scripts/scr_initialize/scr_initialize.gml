@@ -75,12 +75,11 @@
 	#macro SHOT_OPTION_SPEED 20
 	
 	//boss variables	
-	#macro MODE_APPROACH 0
-	#macro MODE_CHAT 1
-	#macro MODE_CHARGE 2
-	#macro MODE_ACTIVE 3
-	#macro BOSS_CHARGE_TIME 120
-	#macro BOSS_APPROACH_TIME 30
+	#macro PHASE_APPROACH 0
+	#macro PHASE_ACTIVE 1
+	#macro PHASE_WHEN 2
+	#macro PHASE_TOOMUCH 3
+	#macro PHASE_STRONG 4
 	
 #endregion
 
@@ -88,6 +87,6 @@ function scr_initialize() {
 	randomize();
 	scr_options_init();
 	scr_input_init();
-	scr_scores( SCORE_INIT );
+	global.score_current = 0;
 	scr_particles_init();
 }

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "thj7",
-    "path": "thj7.yyp",
+    "name": "actors",
+    "path": "folders/actors.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_youmu_stand",

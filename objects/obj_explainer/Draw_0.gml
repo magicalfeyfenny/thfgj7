@@ -30,5 +30,9 @@ draw_text_color(45, 200,  "...why does Lady Yuyuko have a dinner table set up?"
 						, c_lime, c_lime, c_white, c_white, alpha_cycle - 11);
 draw_text_color(45, 220,  "*sigh* this is my punishment for having a cool sword and ghost powers, i knew it was coming"
 						, c_lime, c_lime, c_white, c_white, alpha_cycle - 15);
+						
+
+draw_text_color(45, 270,  "Arrows move, Z shoots"
+						, c_ltgrey, c_ltgrey, c_white, c_white, alpha_cycle - 17);
 
 

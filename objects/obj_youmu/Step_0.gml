@@ -54,12 +54,50 @@ if ( state != STATE_CROUCH && state != STATE_BACKSTEP ) {
 		hspeed = facedir * WALK_SPEED;
 		state = STATE_FORWARD;
 	}
+	if ( x < BOUNDARY_LEFT ) {
+		x = BOUNDARY_LEFT;
+		hspeed = 0;
+	}
+	if (x > BOUNDARY_RIGHT ) {
+		x = BOUNDARY_RIGHT;
+		hspeed = 0;
+	}
+	
 	if ( _prevstate == STATE_FALL || _prevstate == STATE_JUMP ) {
 		state = _prevstate;
 	} else {
-		y = BOUNDARY_BOTTOM;
+		y = BOUNDARY_BOTTOM;	
 		if (hspeed == 0) {
 			state = STATE_NEUTRAL;
+		}
+	}
+}
+
+canshoot -= 1;
+if ( canshoot <= 0 ) {
+	var _shoot = scr_input_get( INPUT_SHOT_LEFT );
+	if ( _shoot ) {
+		if ( obj_mystia.phase == PHASE_ACTIVE ) {
+			audio_play_sound( snd_pew, -1, false );
+			var _shot = instance_create_layer( x, y - 30, "objects", obj_shot );
+			with ( _shot ) {
+				speed = 15;
+				direction = 90 + ( 90 * -other.facedir );
+				image_angle = direction;
+			}
+			canshoot = 4;
+		}
+		else {
+			if ( obj_mystia.phase == PHASE_WHEN ) {
+				audio_play_sound( snd_pew, -1, false );
+				var _shot = instance_create_layer( x, y - 30, "objects", obj_shot_toomuch );
+				with ( _shot ) {
+					speed = 15;
+					direction = 90 + ( 90 * -other.facedir );
+					image_angle = direction;
+				}
+				canshoot = 4;
+			}
 		}
 	}
 }
@@ -79,4 +117,5 @@ if ( y >= BOUNDARY_BOTTOM && (state == STATE_FALL || state == STATE_NEUTRAL) ) {
 if ( vspeed > 0 ) {
 	state = STATE_FALL;
 }
+
 

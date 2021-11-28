@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "thj7",
-    "path": "thj7.yyp",
+    "name": "libraries",
+    "path": "folders/libraries.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_initialize",
