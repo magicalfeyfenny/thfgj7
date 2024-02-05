@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_badend","path":"sprites/spr_badend/spr_badend.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_badend",
     "tags": [],
     "resourceType": "GMSequence",

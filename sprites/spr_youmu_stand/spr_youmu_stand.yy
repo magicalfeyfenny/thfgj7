@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_youmu_stand","path":"sprites/spr_youmu_stand/spr_youmu_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_youmu_stand",
     "tags": [],
     "resourceType": "GMSequence",

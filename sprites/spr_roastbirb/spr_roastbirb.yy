@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_roastbirb","path":"sprites/spr_roastbirb/spr_roastbirb.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_roastbirb",
     "tags": [],
     "resourceType": "GMSequence",

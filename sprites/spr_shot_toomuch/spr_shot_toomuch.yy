@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shot_toomuch","path":"sprites/spr_shot_toomuch/spr_shot_toomuch.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shot_toomuch",
     "tags": [],
     "resourceType": "GMSequence",

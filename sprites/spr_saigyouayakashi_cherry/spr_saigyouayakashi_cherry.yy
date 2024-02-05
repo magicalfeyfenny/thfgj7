@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_saigyouayakashi_cherry","path":"sprites/spr_saigyouayakashi_cherry/spr_saigyouayakashi_cherry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_saigyouayakashi_cherry",
     "tags": [],
     "resourceType": "GMSequence",

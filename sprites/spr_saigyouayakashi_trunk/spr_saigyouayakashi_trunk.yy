@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_saigyouayakashi_trunk","path":"sprites/spr_saigyouayakashi_trunk/spr_saigyouayakashi_trunk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_saigyouayakashi_trunk",
     "tags": [],
     "resourceType": "GMSequence",

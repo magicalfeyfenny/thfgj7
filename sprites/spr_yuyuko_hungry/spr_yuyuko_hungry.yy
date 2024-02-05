@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_yuyuko_hungry","path":"sprites/spr_yuyuko_hungry/spr_yuyuko_hungry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_yuyuko_hungry",
     "tags": [],
     "resourceType": "GMSequence",

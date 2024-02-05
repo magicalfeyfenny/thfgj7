@@ -9,3 +9,4 @@ if (counter > 180) {
 if ( counter >= countermax ) {
 	room_goto_next();
 }
+	

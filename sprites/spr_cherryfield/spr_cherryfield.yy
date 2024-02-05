@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cherryfield","path":"sprites/spr_cherryfield/spr_cherryfield.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cherryfield",
     "tags": [],
     "resourceType": "GMSequence",

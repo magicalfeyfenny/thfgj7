@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_goodend","path":"sprites/spr_goodend/spr_goodend.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_goodend",
     "tags": [],
     "resourceType": "GMSequence",

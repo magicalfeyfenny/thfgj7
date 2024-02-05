@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_youmu_blush","path":"sprites/spr_youmu_blush/spr_youmu_blush.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_youmu_blush",
     "tags": [],
     "resourceType": "GMSequence",

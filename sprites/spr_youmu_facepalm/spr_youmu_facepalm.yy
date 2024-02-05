@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_youmu_facepalm","path":"sprites/spr_youmu_facepalm/spr_youmu_facepalm.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_youmu_facepalm",
     "tags": [],
     "resourceType": "GMSequence",

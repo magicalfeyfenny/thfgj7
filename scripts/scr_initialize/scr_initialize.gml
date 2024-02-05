@@ -1,5 +1,4 @@
 /// @function							scr_initialize();
-
 #region //define global constants
 	//general options
 	#macro WINDOW_BASE_WIDTH 640
@@ -46,8 +45,8 @@
 	#macro SCORE_HITS 1
 	#macro SCORE_WHEN_HITS -1
 	
-	//particle systems
-	#macro PART_CHERRYRAIN 0
+		//particle systems
+		#macro PART_CHERRYRAIN 0				
 	
 	//player variables	
 	#macro SPAWN_X 80
@@ -90,3 +89,4 @@ function scr_initialize() {
 	global.score_current = 0;
 	scr_particles_init();
 }
+

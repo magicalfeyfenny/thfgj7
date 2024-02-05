@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mystia_power","path":"sprites/spr_mystia_power/spr_mystia_power.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mystia_power",
     "tags": [],
     "resourceType": "GMSequence",

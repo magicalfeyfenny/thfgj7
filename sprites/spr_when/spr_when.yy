@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_when","path":"sprites/spr_when/spr_when.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_when",
     "tags": [],
     "resourceType": "GMSequence",

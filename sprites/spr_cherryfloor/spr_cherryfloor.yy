@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cherryfloor","path":"sprites/spr_cherryfloor/spr_cherryfloor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cherryfloor",
     "tags": [],
     "resourceType": "GMSequence",

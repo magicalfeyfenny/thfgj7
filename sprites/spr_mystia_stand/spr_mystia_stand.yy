@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mystia_stand","path":"sprites/spr_mystia_stand/spr_mystia_stand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mystia_stand",
     "tags": [],
     "resourceType": "GMSequence",
